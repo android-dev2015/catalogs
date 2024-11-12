@@ -1,0 +1,14 @@
+[versions]
+flutterPluginLoader = "1.0.0"
+agp = "8.8.0-alpha09"
+kotlin = "2.0.21"
+
+[libraries]
+
+[plugins]
+flutterPluginLoader = { id = "dev.flutter.flutter-plugin-loader", version.ref = "flutterPluginLoader" }
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+flutterGradlePlugin = { id = "dev.flutter.flutter-gradle-plugin" }
+
+
